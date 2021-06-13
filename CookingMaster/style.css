@@ -1,0 +1,130 @@
+/* start style for navbar  */
+body{
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin :0;
+    padding: 0 30px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul li {float: left;}
+  
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul li a:hover:not(.active) {background-color: #111;}
+  
+  /* ul li a.active {background-color: #04AA6D;} */
+  
+  ul li.rightLink {float: right;}
+  
+  /* @media screen and (max-width: 600px) {
+    ul li.rightLink, ul li {
+        float: right;
+    }
+    ul{
+        padding-left: 0;
+    }
+  } */
+
+  /* .........end style for navbar................... */
+
+  /*  start style for search button  */
+  .search
+{
+	border: 2px solid #CF5C3F;
+	overflow: auto;
+	border-radius: 5px;
+	/* -moz-border-radius: 5px;
+	-webkit-border-radius: 5px; */
+    width: 50%;
+    /* text-align: center; */
+    margin: auto;
+}
+.search input[type="text"]
+{
+	border: 0px;
+	width: 67%;
+	padding: 10px 10px;
+}
+
+.search input[type="text"]:focus
+{
+	outline: 0;
+}
+
+.search input[type="submit"]
+{
+	border: 0px;
+	background: none;
+	background-color: #CF5C3F;
+	color: #fff;
+	float: right;
+	padding: 10px;
+	/* border-radius-top-right: 5px;
+	-moz-border-radius-top-right: 5px;
+	-webkit-border-radius-top-right: 5px;
+	border-radius-bottom-right: 5px;
+	-moz-border-radius-bottom-right: 5px;
+	-webkit-border-radius-bottom-right: 5px; */
+        cursor:pointer;
+}
+
+/* style font awsome  */
+.icon{
+    justify-content: center;
+    padding-left: 10px;
+    
+}
+
+/* ===========================
+   ====== Media Query for Search Box ====== 
+   =========================== */
+
+@media only screen and (min-width : 150px) and (max-width : 780px){
+	.search{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+}
+
+/* ent style for search button  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* li{
+    float: left;
+    padding: 20px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+.rightLink {
+    float: right;
+} */
